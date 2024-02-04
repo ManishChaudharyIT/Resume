@@ -1,0 +1,76 @@
+{% extends 'basic.html' %}
+
+{% block title %} About {% endblock title %}
+
+{% block body %}
+{% load static %}
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-title">
+            <h2>Projects</h2>
+            <p>I've summarized my project with a GitHub link for accessibility. Your feedback on features and improvements is welcome. Visit the repository for a deeper understanding and collaboration.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="{% static 'assets/img/profile-img.jpg' %}" class="img-fluid" alt="">
+            </div>
+            <div class=" pt-lg-0 content" data-aos="fade-left">
+                <h3>Style-Guide</h3>
+                <img src="{% static 'assets/img/img3.jpg' %}" class="img-fluid" alt="Project Image 1" style="max-width: 100%; height: auto;">
+                <br><br>
+                <p>Shop effortlessly on our Django-powered e-commerce site, featuring a sleek Bootstrap design. Explore a wide range of products, add to cart, and enjoy secure online transactions. Register for personalized services or log in for a seamless experience. With HTML, CSS, and JavaScript, our site offers an efficient and stylish shopping interface.<a href="https://github.com/ManishChaudharyIT/StyleGuide" target="_blank">Source Code</a></p>
+                 
+
+            </div>
+        </div>
+
+        <!--- project 2-->
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="{% static 'assets/img/profile-img.jpg' %}" class="img-fluid" alt="">
+            </div>
+            <div class=" pt-lg-0 content" data-aos="fade-left">
+                <h3>Student Management System</h3>
+                <img src="{% static 'assets/img/std_management.jpg' %}" class="img-fluid" alt="Project Image 1" style="max-width: 100%; height: auto;">
+                <br><br>
+                <p>Empower students with our user-friendly Student Management System built on Django, Python, HTML, CSS, and Bootstrap. 
+                    Seamlessly manage student information, grades, and courses. Perform CRUD operations effortlessly, allowing students to update their profiles, 
+                    check grades, and register for courses. A comprehensive solution for streamlined academic interactions.
+                <a href="https://github.com/ManishChaudharyIT/Django-Data-Management-System
+                " target="_blank">Source Code</a>
+                </p>
+            </div>
+        </div>
+        
+        <!--- project 2-->
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="{% static 'assets/img/profile-img.jpg' %}" class="img-fluid" alt="">
+            </div>
+            <div class=" pt-lg-0 content" data-aos="fade-left">
+                <h3>ResumeForge API</h3>
+                <img src="{% static 'assets/img/resume_img.jpg' %}" class="img-fluid" alt="Project Image 1" style="max-width: 100%; height: auto;">
+                <br><br>
+                <p>Experience seamless resume management with our Django Rest Framework (DRF) API. Effortlessly upload, update, and retrieve resumes. 
+                    A secure, user-friendly solution for efficient document handling in various formats.
+                    <a href="https://github.com/ManishChaudharyIT/Resume_Upload_API" target="_blank">Source Code</a></p>
+            </div>
+        </div>
+
+    </div>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Others</h2>
+                <p>Explore my profile showcasing diverse projects, from e-commerce websites with 
+                    Django and Bootstrap to student management systems in Python. Varied skills in web development,
+                     data management, and more
+                    
+                     <a href="https://github.com/ManishChaudharyIT" target="_blank">Click Here</a></p>
+            </div>
+    
+        </div>
+
+{% endblock body %}
